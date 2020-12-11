@@ -2338,3 +2338,32 @@ a {
     display: none;
   }
 }
+
+      .posttitlewithoutimg {
+        color: #be4bdb;
+      }
+    
+      .sitename {
+        color: #ff6b6b;
+      }
+    
+        .describtion {
+          color: #ff8787;
+        }
+      
+        .menubutton {
+          color: #fa5252;
+        }
+      
+        .posttitle {
+          color: #7048e8;
+        }
+      
+        #sitegotimeDate,#sitegotimes,#footinfo,#footinfo a{
+          color: #e599f7;
+        }
+      
+        .mobiledescribtion{
+          color: #e599f7;
+        }
+      
