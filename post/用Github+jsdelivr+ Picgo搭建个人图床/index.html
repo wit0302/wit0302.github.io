@@ -3,23 +3,13 @@
     <meta name="viewport"
         content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
     <meta name="description" content="
-1.踩过的坑
 
-之前建这个博客小站时用的图片全都存放在阿里公共图床上，大概一个月后，上面的图片全部失效了，这才明白原来是公共图床会定期清理，所以，拥有自己的图床就很有必要了。
+# 1.踩过的坑
+> 之前建这个博客小站时用的图片全都存放在阿里公共图床上，大概一个月后，上面的图片全部失效了，这才明白原来是公共图床会定期清理，所以，拥有自己的图床就很有必要了。
 
-
-2.步骤框架
-
-
-
-注册github
-
-
-
-
-新建仓库
-
-..." />
+# 2.步骤框架
+- 1. 注册github
+- 2..." />
     <meta name="keywords" content="github" />
     <link rel="stylesheet" href="https://wit0302.github.io//media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://wit0302.github.io//styles/main.css">
@@ -146,14 +136,16 @@
       <ul class="nav navbar-nav">
         
         
-        <li><a href="https://saliva.top" target="_blank">
+        <li>
+          <a data-pjax href="https://wit0302.github.io/">
             首页
-          </a></li>
+          </a>
+        </li>
         
         
         
         <li>
-          <a data-pjax href="https://wit0302.github.io/archives">
+          <a data-pjax href="/post/樱花飘落">
             归档
           </a>
         </li>
@@ -169,8 +161,16 @@
         
         
         <li>
-          <a data-pjax href="/post/about">
+          <a data-pjax href="https://wit0302.github.io/post/about">
             关于
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="https://wit0302.github.io/post/about">
+            友情链接
           </a>
         </li>
         
@@ -279,7 +279,17 @@
     
     
     
-    Bilibili视频引入测试
+    Bilibili
+    <script>postsnum += 1</script>
+    
+    
+    
+    关于
+    <script>postsnum += 1</script>
+    
+    
+    
+    Hello Gridea
     <script>postsnum += 1</script>
     
     
@@ -296,7 +306,7 @@
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://wit0302.github.io//media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://wit0302.github.io//images/avatar.png?v=1607752346923" class="avatar">
+            <img src="https://wit0302.github.io//images/avatar.png?v=1607761352595" class="avatar">
         </div>
         <div class="sitename">Saliva</div>
         <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
@@ -329,7 +339,7 @@
     
     
     <div class="mchocie describtion">
-        <a href="https://saliva.top" class="mchocie describtion" target="_blank">
+        <a data-pjax href="https://wit0302.github.io/" class="menubutton">
             首页
         </a>
     </div>
@@ -337,7 +347,7 @@
     
     
     <div class="mchocie describtion">
-        <a data-pjax href="https://wit0302.github.io/archives" class="menubutton">
+        <a data-pjax href="/post/樱花飘落" class="menubutton">
             归档
         </a>
     </div>
@@ -353,8 +363,16 @@
     
     
     <div class="mchocie describtion">
-        <a data-pjax href="/post/about" class="menubutton">
+        <a data-pjax href="https://wit0302.github.io/post/about" class="menubutton">
             关于
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a data-pjax href="https://wit0302.github.io/post/about" class="menubutton">
+            友情链接
         </a>
     </div>
     
@@ -642,7 +660,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://wit0302.github.io//images/avatar.png?v=1607752346923">\
+                        <img class="intro1" src="https://wit0302.github.io//images/avatar.png?v=1607761352595">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -655,7 +673,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://wit0302.github.io//images/avatar.png?v=1607752346923">\
+                        <img class="intro1" src="https://wit0302.github.io//images/avatar.png?v=1607761352595">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -1038,39 +1056,16 @@
             </div>
             <div class="text ">
                 <!-- more -->
-<h1 id="1踩过的坑">1.踩过的坑</h1>
-<blockquote>
-<p>之前建这个博客小站时用的图片全都存放在阿里公共图床上，大概一个月后，上面的图片全部失效了，这才明白原来是公共图床会定期清理，所以，拥有自己的图床就很有必要了。</p>
-</blockquote>
+<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=1&id=89680147&auto=0&height=90"></iframe>
+# 1.踩过的坑
+> 之前建这个博客小站时用的图片全都存放在阿里公共图床上，大概一个月后，上面的图片全部失效了，这才明白原来是公共图床会定期清理，所以，拥有自己的图床就很有必要了。
 <!-- more -->
-<h1 id="2步骤框架">2.步骤框架</h1>
-<ul>
-<li>
-<ol>
-<li>注册github</li>
-</ol>
-</li>
-<li>
-<ol start="2">
-<li>新建仓库</li>
-</ol>
-</li>
-<li>
-<ol start="3">
-<li>生成Token</li>
-</ol>
-</li>
-<li>
-<ol start="4">
-<li>下载PicGo</li>
-</ol>
-</li>
-<li>
-<ol start="5">
-<li>配置Github参数</li>
-</ol>
-</li>
-</ul>
+# 2.步骤框架
+- 1. 注册github
+- 2.  新建仓库
+- 3. 生成Token
+- 4. 下载PicGo
+- 5. 配置Github参数
 <h1 id="3详细操作">3.详细操作</h1>
 <h2 id="注册github"><a href="https://github.com/">注册github</a></h2>
 <h2 id="新建仓库"><strong>新建仓库</strong></h2>
@@ -1168,8 +1163,6 @@
 </script>
                     <div class="toc-container">
                         <ul class="markdownIt-TOC">
-<li><a href="#1%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91">1.踩过的坑</a></li>
-<li><a href="#2%E6%AD%A5%E9%AA%A4%E6%A1%86%E6%9E%B6">2.步骤框架</a></li>
 <li><a href="#3%E8%AF%A6%E7%BB%86%E6%93%8D%E4%BD%9C">3.详细操作</a>
 <ul>
 <li><a href="#%E6%B3%A8%E5%86%8Cgithub">注册github</a></li>
@@ -1207,7 +1200,7 @@
 <body>
     <div id="vcomments">
     </div>
-    <script src="https://wit0302.github.io//media/js/valine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Valine/Valine-Lete3.2.js"></script>
     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
     <script>
         var valine = new Valine();
@@ -1219,7 +1212,7 @@
             appId: 'xOUBgSnx5RF4MKqMK2jd71gB-gzGzoHsz',
             appKey: 'XCDhc4dNi6Sia79kIuUorHub',
             notify: true,
-            verify: false,
+            verify: true,
             avatar: 'retro',
             pageSize: 10,
             placeholder: '既然来了，何不畅所欲言呢？',

@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="https://wit0302.github.io//media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/css/live2d.css">
     <link rel="stylesheet" href="https://wit0302.github.io//styles/main.css">
+    
 
     <!-- pjax 加载valine文件 -->
-    <script src="https://wit0302.github.io//media/js/valine.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/sakura.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Valine/Valine-Lete3.2.js"></script>
     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
     <meta name="description" content="温故而知新" />
     <meta http-equiv="x-pjax-version" content="v123">
@@ -83,7 +85,17 @@
     
     
     
-    Bilibili视频引入测试
+    Bilibili
+    <script>postsnum += 1</script>
+    
+    
+    
+    关于
+    <script>postsnum += 1</script>
+    
+    
+    
+    Hello Gridea
     <script>postsnum += 1</script>
     
     
@@ -100,7 +112,7 @@
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://wit0302.github.io//media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://wit0302.github.io//images/avatar.png?v=1607752346923" class="avatar">
+            <img src="https://wit0302.github.io//images/avatar.png?v=1607761352595" class="avatar">
         </div>
         <div class="sitename">Saliva</div>
         <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
@@ -133,7 +145,7 @@
     
     
     <div class="mchocie describtion">
-        <a href="https://saliva.top" class="mchocie describtion" target="_blank">
+        <a data-pjax href="https://wit0302.github.io/" class="menubutton">
             首页
         </a>
     </div>
@@ -141,7 +153,7 @@
     
     
     <div class="mchocie describtion">
-        <a data-pjax href="https://wit0302.github.io/archives" class="menubutton">
+        <a data-pjax href="/post/樱花飘落" class="menubutton">
             归档
         </a>
     </div>
@@ -157,8 +169,16 @@
     
     
     <div class="mchocie describtion">
-        <a data-pjax href="/post/about" class="menubutton">
+        <a data-pjax href="https://wit0302.github.io/post/about" class="menubutton">
             关于
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a data-pjax href="https://wit0302.github.io/post/about" class="menubutton">
+            友情链接
         </a>
     </div>
     
@@ -446,7 +466,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://wit0302.github.io//images/avatar.png?v=1607752346923">\
+                        <img class="intro1" src="https://wit0302.github.io//images/avatar.png?v=1607761352595">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -459,7 +479,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://wit0302.github.io//images/avatar.png?v=1607752346923">\
+                        <img class="intro1" src="https://wit0302.github.io//images/avatar.png?v=1607761352595">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -867,14 +887,16 @@
       <ul class="nav navbar-nav">
         
         
-        <li><a href="https://saliva.top" target="_blank">
+        <li>
+          <a data-pjax href="https://wit0302.github.io/">
             首页
-          </a></li>
+          </a>
+        </li>
         
         
         
         <li>
-          <a data-pjax href="https://wit0302.github.io/archives">
+          <a data-pjax href="/post/樱花飘落">
             归档
           </a>
         </li>
@@ -890,8 +912,16 @@
         
         
         <li>
-          <a data-pjax href="/post/about">
+          <a data-pjax href="https://wit0302.github.io/post/about">
             关于
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="https://wit0302.github.io/post/about">
+            友情链接
           </a>
         </li>
         
@@ -945,7 +975,7 @@
                         <!-- 移动端欢迎页 -->
 <div class="welcome">
     <div class="avatar-border">
-        <img src="https://wit0302.github.io//images/avatar.png?v=1607752346923" class="avatar">
+        <img src="https://wit0302.github.io//images/avatar.png?v=1607761352595" class="avatar">
     </div>
     <span class="mobiledescribtion"></span>
 </div>
@@ -1034,7 +1064,7 @@
 <body>
     <div id="vcomments">
     </div>
-    <script src="https://wit0302.github.io//media/js/valine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Valine/Valine-Lete3.2.js"></script>
     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
     <script>
         var valine = new Valine();
@@ -1046,7 +1076,7 @@
             appId: 'xOUBgSnx5RF4MKqMK2jd71gB-gzGzoHsz',
             appKey: 'XCDhc4dNi6Sia79kIuUorHub',
             notify: true,
-            verify: false,
+            verify: true,
             avatar: 'retro',
             pageSize: 10,
             placeholder: '既然来了，何不畅所欲言呢？',
@@ -1205,7 +1235,7 @@
                 <img src="https://cdn.jsdelivr.net/gh/salivaser/bed/helloworld.jpg" class="postimage">
                 <div class="posttitlebox">
                     <div class="posttitle">
-                        Bilibili视频引入测试
+                        Bilibili
                     </div>
                 </div>
             </div>
@@ -1217,6 +1247,56 @@
                 
                 <a data-pjax href="https://wit0302.github.io/tag/HNjDuiJ03/" class="postlink">
                     <i class="fa fa-tag"></i> 测试
+                </a>
+                
+            </div>
+        </div>
+        
+</div>
+
+    <div class="postshow postlist">
+        
+        <a data-pjax href="https://wit0302.github.io/post/about/" class="apost">
+            <div id="post" style="width:100%">
+                
+                <img src="" class="postimage">
+                
+            <div class="posttitlebox">
+                <div class="posttitle" >
+                关于
+            </div>
+    </div>
+</div>
+</a>
+<div class="postinfo">
+    <div class="postdate"><i class="fa fa-calendar"></i>2019-01-25</div>
+    <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+    <div class="posttag">
+        
+    </div>
+</div>
+
+</div>
+
+    <div class="postshow postlist">
+        
+        <a data-pjax href="https://wit0302.github.io/post/hello-gridea/" class="apost">
+            <div id="post" style="width:100%">
+                <img src="https://wit0302.github.io//post-images/hello-gridea.png" class="postimage">
+                <div class="posttitlebox">
+                    <div class="posttitle">
+                        Hello Gridea
+                    </div>
+                </div>
+            </div>
+        </a>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2018-12-12</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
+            <div class="posttag">
+                
+                <a data-pjax href="https://wit0302.github.io/tag/3zeh0qE7S/" class="postlink">
+                    <i class="fa fa-tag"></i> Gridea
                 </a>
                 
             </div>
