@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wit0302.github.io/</id>
     <title>Saliva</title>
-    <updated>2020-12-12T08:35:12.199Z</updated>
+    <updated>2020-12-12T09:32:36.111Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wit0302.github.io/"/>
     <link rel="self" href="https://wit0302.github.io/atom.xml"/>
@@ -344,22 +344,6 @@ yaml
 <div class="tvcontainer">
 <iframe class="tv"                         src="https://player.bilibili.com/player.html?aid=287249285&cid=239420179&page=0&as_wide=1&high_quality=1&danmaku=0"frameborder="no" scrolling="no"></iframe>
 </div>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于]]></title>
-        <id>https://wit0302.github.io/post/about/</id>
-        <link href="https://wit0302.github.io/post/about/">
-        </link>
-        <updated>2019-01-25T11:09:48.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1763228950&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1763228950:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
