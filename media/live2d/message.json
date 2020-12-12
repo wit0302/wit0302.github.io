@@ -2,19 +2,19 @@
     "mouseover": [
         {
             "selector": ".posttitlewithoutimg",
-            "text": ["樊旭岩快摸我"]
+            "text": ["要看看 {text} 么？"]
         },
         {
             "selector": ".posttitle",
-            "text": ["蔡丰绮快摸我"]
+            "text": ["要看看 {text} 么？"]
         },
         {
             "selector": ".search-input",
-            "text": ["傻逼何涛"]
+            "text": ["只阔以搜索标题哦"]
         },
         {
             "selector": ".avatar",
-            "text": ["蔡丰绮快摸我"]
+            "text": ["快来交换友链吧！"]
         }
     ],
     "click": [
