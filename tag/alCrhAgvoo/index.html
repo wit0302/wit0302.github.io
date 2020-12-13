@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>用Github+jsdelivr+Picgo搭建个人图床 | Gridea</title>
+<title>排版 | Gridea</title>
 <meta name="description" content="温故而知新" />
 <link rel="shortcut icon" href="https://wit0302.github.io/favicon.ico">
 <link rel="stylesheet" href="https://wit0302.github.io/styles/main.css">
@@ -14,20 +14,11 @@
 <script src="https://wit0302.github.io/media/js/view-image.min.js"></script>
 <script src="https://wit0302.github.io/media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://wit0302.github.io/media/js/functions.js"></script>
-    <meta name="referrer" content="never">
-    <meta name="description" content="
-
-# 1.踩过的坑
-> 之前建这个博客小站时用的图片全都存放在阿里公共图床上，大概一个月后，上面的图片全部失效了，这才明白原来是公共图床会定期清理，所以，拥有自己的图床就很有必要了。
-
-# 2.步骤框架
-- 1. 注册github
-- 2..." />
-    <meta name="keywords" content="github" />
-    <script src="https://wit0302.github.io/media/js/waterfall.min.js"></script>
-    <script src="https://wit0302.github.io/media/js/prism.min.js"></script>
   </head>
   <body>
+    <!-- start: #wrapper -->
+    <div class="wrapper">
+      
             <header id="header" class="grid-container">
         <!-- start: .menu-wrapper -->
         <div class="menu-mobile"> 
@@ -100,126 +91,45 @@
         </div>
       </div>
 
-      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
-
-        <div class="center content">
-          <div class="featured-image cover" style="background-image: url('http://cdn.jsdelivr.net/gh/salivaser/bed/img/%E5%9B%BE%E5%BA%8A%E6%96%87%E7%AB%A0%E9%A1%B6%E9%83%A8.jpg');">
-            <div class="meta top"> 
-              <time class="meta-info" style="float:left;" datetime="2020-12-11"><i class="fa fa-calendar"></i><span class="lately">2 天前</span></time>
-              
-              <a href="https://wit0302.github.io/post/用Github+jsdelivr+ Picgo搭建个人图床/#comments" class="comments meta-info" title="">
-                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/用Github+jsdelivr+ Picgo搭建个人图床/"> </span>
-              </a>
-              <span id="/用Github+jsdelivr+ Picgo搭建个人图床/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
-              
-            </div>
-            <div class="info">
-              <div class="tags ">
-                
-                      <a href="https://wit0302.github.io/tag/CnpoIxaEi/" class="ctag ctag-0 ctag-CnpoIxaEi" aria-label="">github</a>
-                    
-              </div>
-              <h1 class="title ularge white bold">用Github+jsdelivr+Picgo搭建个人图床</h1>
-            </div>
-          </div>
-        </div>  
-
+      <main id="home" class="main fullcover no-sidebar content">
+        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
         <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile">
-            <article class="main-article post">
-              <section class="post-content">
-                <div class="text">
-                  <!-- more -->
-<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=1&id=89680147&auto=0&height=90"></iframe>
-# 1.踩过的坑
-> 之前建这个博客小站时用的图片全都存放在阿里公共图床上，大概一个月后，上面的图片全部失效了，这才明白原来是公共图床会定期清理，所以，拥有自己的图床就很有必要了。
-<!-- more -->
-# 2.步骤框架
-- 1. 注册github
-- 2.  新建仓库
-- 3. 生成Token
-- 4. 下载PicGo
-- 5. 配置Github参数
-<h1 id="3详细操作">3.详细操作</h1>
-<h2 id="注册github"><a href="https://github.com/">注册github</a></h2>
-<h2 id="新建仓库"><strong>新建仓库</strong></h2>
-<figure data-type="image" tabindex="1"><img src="http://cdn.jsdelivr.net/gh/salivaser/bed/img/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="仓库名随意" loading="lazy"></figure>
-<h2 id="生成token"><strong>生成Token</strong></h2>
-<ul>
-<li><strong>依次点击</strong><br>
-<code>sitting</code>-<code>Developer settings</code>-<code>personal access token</code>-<code>Generate new token</code><br>
-<img src="http://cdn.jsdelivr.net/gh/salivaser/bed/img/Token%E8%8E%B7%E5%8F%96.png" alt="名称随意，注意repo勾选，最后点击底部的Generate token提交" loading="lazy"></li>
-</ul>
-<figure data-type="image" tabindex="2"><img src="http://cdn.jsdelivr.net/gh/salivaser/bed/img/Token%20%E9%A1%B5%E9%9D%A2.jpg" alt="复制Token，该Token只显示一次，注意保存，后面会用到" loading="lazy"></figure>
-<h2 id="下载安装picgo"><a href="https://github.com/Molunerfinn/picgo/releases">下载安装PicGo</a></h2>
-<h2 id="配置picgo参数"><strong>配置PicGo参数</strong></h2>
-<figure data-type="image" tabindex="3"><img src="http://cdn.jsdelivr.net/gh/salivaser/bed/img/UK1ZIW9FOC18%7DI93G3Q$K7I.png" alt="" loading="lazy"></figure>
-<ul>
-<li>仓库名：用户名/仓库名</li>
-<li>分支名： master</li>
-<li>Token： 粘贴上面复制的Token</li>
-<li>存储路径：自定义</li>
-<li>自定义域名： http://cdn.jsdelivr.net/gh/用户名/仓库名</li>
-</ul>
-<p>Github图床配置完后点击确定再设置为自定义即可，在上传区就可以把图片上传到自己的图床了，上传后可以在相册复制对应格式的图片链接，非常方便哦。</p>
+          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
+                
+            <!-- start: .articles -->
+            <div class="main-article post">
+  <h2 class="year"># 排版</h2>
+    
+      <article class="item default grid-33 tablet-grid-50 np-mobile">
+        <a href="https://wit0302.github.io/post/mdnice排版/" class="thumb hover-effect">
+          <span class="fullimage cover" style="display: block;background-image: url('http://cdn.jsdelivr.net/gh/salivaser/bed/img/mdvo58.jpg');"></span>
+        </a>
+        <div class="info gradient-effect">
+          <time datetime="2020-12-11">2020-12-11</time>
+          <h4 class="title usmall">
+            <a href="https://wit0302.github.io/post/mdnice排版/">mdnice排版</a>
+          </h4>
+        </div>
+      </article>
 
-                </div>
-                <div class="clear"></div>
-              </section>
-            </article>
-            <div class="clear"></div>
-
-            <section class="related section">
-              
-              
-              <article class="next grid-50 tablet-grid-50 grid-parent">
-                <div class="thumb cover lazy loaded" style="background-image: url('http://cdn.jsdelivr.net/gh/salivaser/bed/img/ym9v87.png');"></div>
-                 <a href="https://wit0302.github.io/post/原来你也在这里/" class="full-link"></a>
-                 <div class="info">
-                  <time datetime="2020-12-11">2020-12-11</time>
-                  <h4 class="title white no-margin">原来你也在这里</h4>
-                </div>
-                 <span class="epcl-button red">
-                  <img src="https://wit0302.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
-                </span>
-                <div class="overlay"></div>
-              </article>
-              
-
-                <div class="clear"></div>
-            </section>
-
-              <div class="clear"></div>
-              
+    
+    <div class="clear"></div>
+</div>
+            <!-- end: .articles -->
             
-              <div id="comments" class="bg-white hosted ">
-                <div class="clear"></div>
-<script>
-jQuery(document).ready(function($){
-    $('.vemoji-btn').text('😀');
-    $("#comments").on('click', 'span.vat',function(){
-        $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
-        $('textarea#veditor').focus();
-    })
-    if(window.location.hash){
-        var checkExist = setInterval(function() {
-            if ($(window.location.hash).length) {
-                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-200}, 600);
-                clearInterval(checkExist);
-            }
-        }, 100);
-    }
-})
-</script>
-
+                        <div class="epcl-pagination section">
+              <div class="nav">
+                
+                
               </div>
-            
-
             </div>
+            
           </div>
+          </div>
+        </div>
       </main>
 
-          <footer id="footer" class="grid-container">
+        <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
@@ -376,9 +286,6 @@ jQuery(document).ready(function($){
     })
 </script>
     
-
-      
-    <script src="https://wit0302.github.io/media/js/functions-post.js"></script>
 
     </div>
     <!-- end: #wrapper -->
