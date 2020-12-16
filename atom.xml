@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wit0302.github.io</id>
     <title>Saliva</title>
-    <updated>2020-12-16T07:32:31.514Z</updated>
+    <updated>2020-12-16T07:57:36.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wit0302.github.io"/>
     <link rel="self" href="https://wit0302.github.io/atom.xml"/>
@@ -16,17 +16,37 @@
         <link href="https://wit0302.github.io/post/用Github+jsdelivr+ Picgo搭建个人图床/">
         </link>
         <updated>2020-12-11T15:05:05.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=1&id=89680147&auto=0&height=90"></iframe>
+        <content type="html"><![CDATA[<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=1&id=89680147&auto=0&height=90"></iframe>
 # 1.踩过的坑
-> 之前建这个博客小站时用的图片全都存放在阿里公共图床上，大概一个月后，上面的图片全部失效了，这才明白原来是公共图床会定期清理，所以，拥有自己的图床就很有必要了。
-<!-- more -->
-# 2.步骤框架
-- 1. 注册github
-- 2.  新建仓库
-- 3. 生成Token
-- 4. 下载PicGo
-- 5. 配置Github参数
+> 之前建这个博客小站时用的图片全都存放在阿里公共图床上，一个月后，上面的图片全部失效了，原来是公共图床会定期清理，所以，拥有自己的图床就很有必要了
+<h1 id="2步骤框架">2.步骤框架</h1>
+<ul>
+<li>
+<ol>
+<li>注册github</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>新建仓库</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>生成Token</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>下载PicGo</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>配置Github参数</li>
+</ol>
+</li>
+</ul>
 <h1 id="3详细操作">3.详细操作</h1>
 <h2 id="注册github"><a href="https://github.com/">注册github</a></h2>
 <h2 id="新建仓库"><strong>新建仓库</strong></h2>
@@ -314,9 +334,10 @@ yaml
         </link>
         <updated>2020-12-11T15:04:30.000Z</updated>
         <content type="html"><![CDATA[<h1 id="bilibili视频引入测试">Bilibili视频引入测试</h1>
-<div class="bilibili">
-    <iframe src="//player.bilibili.com/player.html?aid=287249285&cid=239420179&page=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>]]></content>
+<div class="tvcontainer">
+<iframe class="tv" src="https://player.bilibili.com/player.html?aid=288082672&cid=265865028&page=2&as_wide=5&high_quality=0&danmaku=1"frameborder="no" scrolling="no"></iframe>
+</div>
+<html>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[你的眼里有星辰大海]]></title>
@@ -326,10 +347,38 @@ yaml
         <updated>2020-12-11T15:04:30.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
 <h1 id="bilibili">Bilibili</h1>
-<p>👒👒</p>
-<div class="tvcontainer">
-<iframe class="tv" src="https://player.bilibili.com/player.html?aid=288082672&cid=265865028&page=1&as_wide=1&high_quality=0&danmaku=0"frameborder="no" scrolling="no"></iframe>
-</div>
+<pre><code>&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge，chrome=1&quot;&gt;
+    &lt;link href=&quot;//vjs.zencdn.net/5.4.6/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;script src=&quot;//vjs.zencdn.net/5.4.6/video.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        div.videocontent {
+            width:100%;
+        }
+        div.wrapper {
+            max-width:750px; 
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;wrapper&quot;&gt;
+        &lt;div class=&quot;videocontent&quot;&gt;
+            &lt;video id=&quot;example_video_1&quot; class=&quot;video-js vjs-default-skin vjs-big-play-centered vjs-16-9&quot; controls preload=&quot;none&quot; poster=&quot;http://cdn.jsdelivr.net/gh/salivaser/bed/img/Screenshot_20201212_202615.jpg&quot; data-setup=&quot;{}&quot;&gt;
+                &lt;source src=&quot;http://cdn.jsdelivr.net/gh/salivaser/video/2.mp4&quot; type=&quot;video/mp4&quot;&gt;
+            &lt;/video&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+</code></pre>
+</html>
 ]]></content>
     </entry>
 </feed>

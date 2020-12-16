@@ -175,10 +175,38 @@ window.onload=getCSS();
 			<div class="wow slideInLeft entry-summary song">
 				<!-- more -->
 <h1 id="bilibili">Bilibili</h1>
-<p>👒👒</p>
-<div class="tvcontainer">
-<iframe class="tv" src="https://player.bilibili.com/player.html?aid=288082672&cid=265865028&page=1&as_wide=1&high_quality=0&danmaku=0"frameborder="no" scrolling="no"></iframe>
-</div>
+<pre><code>&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge，chrome=1&quot;&gt;
+    &lt;link href=&quot;//vjs.zencdn.net/5.4.6/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;script src=&quot;//vjs.zencdn.net/5.4.6/video.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        div.videocontent {
+            width:100%;
+        }
+        div.wrapper {
+            max-width:750px; 
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;wrapper&quot;&gt;
+        &lt;div class=&quot;videocontent&quot;&gt;
+            &lt;video id=&quot;example_video_1&quot; class=&quot;video-js vjs-default-skin vjs-big-play-centered vjs-16-9&quot; controls preload=&quot;none&quot; poster=&quot;http://cdn.jsdelivr.net/gh/salivaser/bed/img/Screenshot_20201212_202615.jpg&quot; data-setup=&quot;{}&quot;&gt;
+                &lt;source src=&quot;http://cdn.jsdelivr.net/gh/salivaser/video/2.mp4&quot; type=&quot;video/mp4&quot;&gt;
+            &lt;/video&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+</code></pre>
+</html>
 
 							</div>
 	<div class="wow bounceInDown vt-post-tags">
