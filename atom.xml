@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wit0302.github.io</id>
     <title>Saliva</title>
-    <updated>2020-12-16T08:02:01.164Z</updated>
+    <updated>2020-12-18T09:44:58.299Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wit0302.github.io"/>
     <link rel="self" href="https://wit0302.github.io/atom.xml"/>
@@ -10,6 +10,352 @@
     <logo>https://wit0302.github.io/images/avatar.png</logo>
     <icon>https://wit0302.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Saliva</rights>
+    <entry>
+        <title type="html"><![CDATA[html测试]]></title>
+        <id>https://wit0302.github.io/post/html-ce-shi/</id>
+        <link href="https://wit0302.github.io/post/html-ce-shi/">
+        </link>
+        <updated>2020-12-18T01:49:27.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>视频引入</strong></p>
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;html测试&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;video width=&quot;320&quot;height=&quot;240&quot; controls&gt;
+&lt;source src=&quot;http://cdn.jsdelivr.net/gh/salivaser/video/kouqin.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>例：</p>
+<html>
+<head>
+<meta charset="utf-8">
+<title>视频引入</title>
+</head>
+<body>
+<video width="320"height="240" controls>
+<source src="http://cdn.jsdelivr.net/gh/salivaser/video/kouqin.mp4" type="video/mp4">
+</video>
+</body>
+</html>
+<p><strong>音频引入</strong></p>
+<pre><code>&lt;body&gt;
+&lt;audio  controls&gt;
+&lt;source src=&quot;http://cdn.jsdelivr.net/gh/salivaser/audio/忧伤背景音1.mp3&quot;type=&quot;audio/mp3&quot;&gt;
+&lt;source src=&quot;我的一个道姑朋友.ogg&quot; type=&quot;audio/ogg&quot;&quot;&gt;
+&lt;/audio&gt;
+&lt;/body&gt;
+</code></pre>
+<p>例：</p>
+<body>
+<audio  controls>
+<source src="http://cdn.jsdelivr.net/gh/salivaser/audio/忧伤背景音1.mp3"type="audio/mp3">
+<source src="我的一个道姑朋友.ogg" type="audio/ogg"">
+</audio>
+</body>
+<p><strong>图形容器引入</strong></p>
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;---文档标题---&gt;
+&lt;title&gt;图形容器创建&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;canvas id=&quot;myCanvas&quot;width=&quot;200&quot; height=&quot;100&quot;style=&quot;border:2px  solid #000000;“&gt;
+&lt;/canvas&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>示例：</p>
+<html>
+<head>
+<meta charset="utf-8">
+<title>图形容器创建</title>
+</head>
+<body>
+<canvas id="myCanvas"width="200" height="100"style="border:2px  solid #000000;">
+</canvas>
+</body>
+</html>
+<p><strong>文字引入</strong></p>
+<pre><code>&lt;h1&gt;标题&lt;/h1&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h2&gt;标题2前面有三个换行&lt;/h2&gt;
+&lt;h3&gt;这是标题3&lt;/h3&gt;
+&lt;h4&gt;这是标题4&lt;/h4&gt;
+&lt;em&gt;斜体标签&lt;/em&gt;
+&lt;br/&gt;
+&lt;strong&gt;粗体&lt;/strong&gt;
+&lt;br/&gt;
+&lt;strong&gt;&lt;em&gt;粗斜体&lt;/em&gt;&lt;/strong&gt;
+&lt;br/&gt;
+&lt;!--align是属性名，center是属性值，属性值需用双引号括起来,还有left、right等属性。这是一条注释信息--&gt;
+&lt;h3 align=&quot;center&quot;&gt;居中小标题&lt;/h3&gt;
+&lt;ins&gt;下划线标签&lt;/ins&gt;
+&lt;del&gt;删除标签&lt;/del&gt;属于内联元素即不会换行
+&lt;!---&lt;br/&gt;换行标签---&gt;
+&lt;br/&gt;
+&lt;li&gt;无序列表序列1&lt;/li&gt;
+&lt;li&gt;无序列表序列2&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;无序列表序列3&lt;/li&gt;
+&lt;li&gt;无序列表序列4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;有序列表序列4&lt;/li&gt;
+&lt;li&gt;有序列表序列5&lt;/li&gt;
+&lt;/ol&gt;
+&lt;font color=&quot;green&quot;&gt;绿色默认字体大小&lt;/font&gt;
+&lt;font color=&quot;blue&quot; size=&quot;2&quot;&gt;蓝色大二号字体&lt;/fonts&gt;
+&lt;font color=&quot;red&quot; size=&quot;-2&quot;&gt;红色小二号字体&lt;/fonts&gt;
+&lt;p&gt;定义一个段落&lt;/p&gt;
+</code></pre>
+<p>例：</p>
+ <h1>大标题</h1> 
+<h2>中标题前面有三个换行</h2>
+<h3>小标题3</h3>
+<h4>更小标题4</h4>
+<em>斜体标签</em>
+<br/>
+<strong>粗体</strong>
+<br/>
+<strong><em>粗斜体</em></strong>
+<br/>
+<!--align是属性名，center是属性值，属性值需用双引号括起来,还有left、right等属性-->
+<h3 align="center">居中小标题</h3>
+<ins>下划线标签</ins>
+<!---<br/>换行标签--->
+<br/>
+<del>删除标签</del>
+<li>无序列表序列1</li>
+<li>无序列表序列2</li>
+<ul>
+<li>无序列表序列3</li>
+<li>无序列表序列4</li>
+</ul>
+<ol>
+<li>有序列表序列4</li>
+<li>有序列表序列5</li>
+</ol>
+<font color="green">绿色默认字体大小</font>
+<br/>
+<font color="blue" size="2">蓝色大二号字体</fonts>
+<br/>
+<font color="red" size="-2">红色小二号字体</fonts>
+<p>定义一个段落</p>
+<p><strong>图像引入</strong></p>
+<pre><code>&lt;h3&gt;一.图片直链直接引入，图片损坏或链接有错误无法显示时，可用alt属性来标注&lt;/h3&gt;
+&lt;img src=&quot;https://how2j.cn/example.gif&quot; alt=&quot;该图无法显示&quot;/&gt;
+
+&lt;img src=&quot;https://how2j.cn/example.notexist.gif&quot; alt=&quot;该图无法显示&quot;/&gt;
+&lt;h3&gt;二.如果是本地文件，只需把图片放在与.html的文件同一目录下即可，src直接使用文件名，不需要写路径（example.gif）
+如果图片在上级目录，则在src上加上../，(../example.gif)即可访问上级目录的图片，同理，访问上上级目录，则使用../../(../../example.gif)
+使用本地图片的绝对路径，在src上加上file://路径(file://C:/user/pictures/example.gif)&lt;/h3&gt;
+
+&lt;h3&gt;三.图片大小设置,会失真&lt;/h3&gt;
+&lt;img width=&quot;200&quot; height=&quot;200&quot; src=&quot;https://how2j.cn/example.gif&quot;/&gt;
+&lt;h3&gt;四.利用style外边距样式和div属性来约束图片的位置 ，margin-left:50px 指的是左边距50个像素&lt;/h3&gt;
+&lt;img  style=&quot;margin-left:50px&quot; src=&quot;https://how2j.cn/example.gif&quot;/&gt;
+
+&lt;img  style=&quot;margin-right:50px&quot; src=&quot;https://how2j.cn/example.gif&quot;/&gt;
+&lt;h3&gt;五.使用了div后，先把两个图像放在一个div里，只需要设置div的边距，就可以达到两个图片同时移动的效果&lt;/h3&gt;
+&lt;div style=&quot;margin-right:70px&quot;&gt;
+&lt;img src=&quot;https://how2j.cn/example.gif&quot;/&gt;
+&lt;img src=&quot;https://how2j.cn/example.gif&quot;/&gt;
+&lt;/div&gt;
+&lt;h3&gt;六.div和span的区别&lt;/h3&gt;
+div是块元素，即自动换行，常见的还有h1,table,p
+span是内联元素，即不会换行，常见的还有img,a,b,strong
+&lt;div&gt;元素一&lt;/div&gt;
+&lt;div&gt;元素二&lt;/div&gt;
+&lt;span&gt;元素一&lt;/span&gt;
+&lt;span&gt;元素二&lt;/span&gt;
+&lt;span&gt;元素三&lt;/span&gt;
+
+
+
+</code></pre>
+<p>例：</p>
+<h3>一.图片直链直接引入，图片损坏或链接有错误无法显示时，可用alt属性来标注</h3>
+<img src="https://how2j.cn/example.gif" alt="该图无法显示"/>
+<img src="https://how2j.cn/example.notexist.gif" alt="该图无法显示"/>
+<h3>二.如果是本地文件，只需把图片放在与.html的文件同一目录下即可，src直接使用文件名，不需要写路径（example.gif）
+如果图片在上级目录，则在src上加上../，(../example.gif)即可访问上级目录的图片，同理，访问上上级目录，则使用../../(../../example.gif)
+使用本地图片的绝对路径，在src上加上file://路径(file://C:/user/pictures/example.gif)</h3>
+<h3>三.图片大小设置,会失真</h3>
+<img width="200" height="200" src="https://how2j.cn/example.gif"/>
+<h3>四.利用style外边距样式和div属性来约束图片的位置 ，margin-left:50px 指的是左边距50个像素</h3>
+<img  style="margin-left:50px" src="https://how2j.cn/example.gif"/>
+<img  style="margin-right:50px" src="https://how2j.cn/example.gif"/>
+<h3>五.使用了div后，先把两个图像放在一个div里，只需要设置div的边距，就可以达到两个图片同时移动的效果</h3>
+<div style="margin-right:70px">
+<img src="https://how2j.cn/example.gif"/>
+<img src="https://how2j.cn/example.gif"/>
+</div>
+<h3>六.div和span的区别</h3>
+div是块元素，即自动换行，常见的还有h1,table,p
+span是内联元素，即不会换行，常见的还有img,a,b,strong
+<div>元素一</div>
+<div>元素二</div>
+<span>元素一</span>
+<span>元素二</span>
+<span>元素三</span>
+<p><strong>超链接</strong></p>
+<pre><code>&lt;!---&lt;a&gt;标签用来显示超链，超链内容可为网页，图片等
+一.完整形式是&lt;a href=&quot;跳转页面的链接&quot;&gt;超链显示文本&lt;/a&gt;---&gt;
+例：&lt;a href=&quot;www.baidu.com&quot;&gt;百度&lt;/a&gt;
+&lt;h3&gt;二.新增属性target（在新的页面打开链接），属性title(超链上的提示文字)&lt;/h3&gt;
+例：&lt;a href=&quot;www.baidu.com&quot; target=&quot;_blank&quot; title=&quot;点击跳转百度首页&quot;&gt;百度&lt;/a&gt;
+</code></pre>
+<!---<a>标签用来显示超链，超链内容可为网页，图片等
+一.完整形式是<a href="跳转页面的链接">超链显示文本</a>--->
+<p>例：<a href="www.baidu.com">百度</a></p>
+<h3>二.新增属性target（在新的页面打开链接），属性title(超链上的提示文字)</h3>
+例：<a href="www.baidu.com" target="_blank" title="点击跳转百度首页">百度</a>
+<p><strong>表格</strong></p>
+<pre><code>&lt;table&gt;标签用于显示一个表格
+&lt;tr&gt;表示行
+&lt;td&gt;表示列，又叫单元格
+&lt;h3&gt;一.新增属性border(带边框的表格)，属性width（表格的宽度，大小用像素表示—）属性align(单元格水平对齐) 属性单元格宽度绝对值：单独在某一行设置某一列的宽度，其他各行对应的列的宽度会自适应。&lt;/h3&gt;
+&lt;table border=&quot;1&quot; width=&quot;1024px&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;陈先生&lt;/td&gt;&lt;td width=&quot;600px&quot; align=&quot;left&quot;&gt;樊师傅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;蔡先生&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;何逼男&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;周帅逼&lt;/td&gt;&lt;td align=&quot;right&quot;&gt;赵同志&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+
+
+&lt;h3&gt;二.属性：单元格宽度相对值：用百分数代替具体的像素宽度。属性：valign（单元格垂直对齐）&lt;/h3&gt;
+&lt;table border=&quot;1&quot; width=&quot;100%&quot;&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;陈先生 &lt;/td&gt; &lt;td width=&quot;70%&quot;&gt;樊师傅 &lt;br/&gt;蔡先生&lt;br/&gt;何逼男&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;蔡先生&lt;/td&gt;&lt;td&gt;何逼男&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;周帅逼&lt;/td&gt;&lt;td&gt;赵同志&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;三.属性:colspan(横跨两列，水平合并)&lt;/h3&gt;
+&lt;table border=&quot;1&quot; width=&quot;100%&quot;&gt;
+&lt;tr&gt;
+&lt;!---colspan后面的2指合并的列数---&gt;
+&lt;td colspan=&quot;2&quot;&gt;陈先生  樊师傅&lt;/td&gt; 
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;蔡先生&lt;/td&gt;&lt;td&gt;何逼男&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;周帅逼&lt;/td&gt;&lt;td&gt;赵同志&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;四.属性：rowspan (横跨两列，垂直合并)&lt;/h3&gt;
+&lt;table border=&quot;1&quot; width=&quot;100%&quot;&gt;
+&lt;tr&gt;
+&lt;!---rowspan后面的2指合并的行数---&gt;
+&lt;td rowspan=&quot;2&quot;&gt;陈先生  蔡先生&lt;/td&gt; &lt;td&gt;樊师傅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;何逼男&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;周帅逼&lt;/td&gt;&lt;td&gt;赵同志&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+
+&lt;h3&gt;五.属性:bgcolor:(背景色)设置tr或者td的背景色&lt;/h3&gt;
+&lt;table border=&quot;1&quot; width=&quot;1024px&quot;&gt;
+&lt;tr bgcolor=&quot;#5BD3BB&quot;&gt;
+&lt;td&gt;陈先生&lt;/td&gt;&lt;td width=&quot;600px&quot; align=&quot;left&quot;&gt;樊师傅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;yellow&quot;&gt;蔡先生&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;何逼男&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;周帅逼&lt;/td&gt;&lt;td align=&quot;right&quot; bgcolor=&quot;pink&quot;&gt;赵同志&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+</code></pre>
+<h3>一.新增属性border(带边框的表格)，属性width（表格的宽度，大小用像素表示—）属性align(单元格水平对齐) 属性单元格宽度绝对值：单独在某一行设置某一列的宽度，其他各行对应的列的宽度会自适应。</h3>
+<table border="1" width="1024px">
+<tr>
+<td>陈先生</td><td width="600px" align="left">樊师傅</td>
+</tr>
+<tr>
+<td>蔡先生</td><td align="center">何逼男</td>
+</tr>
+<tr>
+<td>周帅逼</td><td align="right">赵同志</td>
+</tr>
+</table>
+<h3>二.属性：单元格宽度相对值：用百分数代替具体的像素宽度。属性：valign（单元格垂直对齐）</h3>
+<table border="1" width="100%">
+<tr>
+<td valign="top">陈先生 </td> <td width="70%">樊师傅 <br/>蔡先生<br/>何逼男</td>
+</tr>
+<tr>
+<td>蔡先生</td><td>何逼男</td>
+</tr>
+<tr>
+<td>周帅逼</td><td>赵同志</td>
+</tr>
+</table>
+<h3>三.属性:colspan(横跨两列，水平合并)</h3>
+<table border="1" width="100%">
+<tr>
+<!---colspan后面的2指合并的列数--->
+<td colspan="2">陈先生  樊师傅</td> 
+</tr>
+<tr>
+<td>蔡先生</td><td>何逼男</td>
+</tr>
+<tr>
+<td>周帅逼</td><td>赵同志</td>
+</tr>
+</table>
+<h3>四.属性：rowspan (横跨两列，垂直合并)</h3>
+<table border="1" width="100%">
+<tr>
+<!---rowspan后面的2指合并的行数--->
+<td rowspan="2">陈先生  蔡先生</td> <td>樊师傅</td>
+</tr>
+<tr>
+<td>何逼男</td>
+</tr>
+<tr>
+<td>周帅逼</td><td>赵同志</td>
+</tr>
+</table>
+<h3>五.属性:bgcolor:(背景色)设置tr或者td的背景色</h3>
+<table border="2" width="1024px">
+<tr bgcolor="#5BD3BB">
+<td>陈先生</td><td width="600px" align="left">樊师傅</td>
+</tr>
+<tr>
+<td bgcolor="yellow">蔡先生</td><td align="center">何逼男</td>
+</tr>
+<tr>
+<td>周帅逼</td><td align="right" bgcolor="pink">赵同志</td>
+</tr>
+</table>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[用Github+jsdelivr+Picgo搭建个人图床]]></title>
         <id>https://wit0302.github.io/post/用Github+jsdelivr+ Picgo搭建个人图床/</id>
