@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wit0302.github.io</id>
     <title>Saliva</title>
-    <updated>2020-12-18T14:28:00.396Z</updated>
+    <updated>2020-12-18T14:30:59.150Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wit0302.github.io"/>
     <link rel="self" href="https://wit0302.github.io/atom.xml"/>
@@ -345,7 +345,9 @@ span是内联元素，即不会换行，常见的还有img,a,b,strong
 </table>
 <h1 id="内联框架引入">内联框架引入</h1>
 <pre><code>&lt;iframe&gt;即内联框架，通过内联框架，可以实现在网页中&quot;插入网页&quot;
-  
+&lt;iframe src=&quot;https://saliva.top/&quot; width=&quot;750px&quot; height=&quot;400px&quot;&gt;
+  &lt;/iframe&gt;
+
 </code></pre>
   <iframe src="https://saliva.top/" width="750px" height="400px">
     </iframe>
