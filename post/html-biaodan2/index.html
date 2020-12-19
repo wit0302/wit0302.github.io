@@ -1,0 +1,895 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
+<meta HTTP-EQUIV="expires" CONTENT="0"> 
+<title>HTML表单元素 | Saliva</title>	
+
+<link rel="stylesheet" href="https://wit0302.github.io/styles/main.css">
+<script type="text/javascript">
+function getCSS()
+{
+        datetoday = new Date();
+        timenow=datetoday.getTime();
+        datetoday.setTime(timenow);
+        thehour = datetoday.getHours();
+
+        if (thehour<12时)
+
+            display = "https://wit0302.github.io/media/css/night.css";
+
+       else if (thehour>12时)
+
+            display = "https://wit0302.github.io/media/css/night.css";   
+
+        else if (thehour>12时)
+           
+            display = "https://wit0302.github.io/media/css/day.css";
+
+        else if (thehour<12时)
+
+            display = "https://wit0302.github.io/media/css/day.css";
+      
+
+var css = '<';
+        css+='link rel="stylesheet" href='+display+' \/';
+        css+='>';
+        document.write(css);
+}
+</script>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Sans+SC:300|Montserrat&display=swap" rel="stylesheet">
+<link href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css" rel="stylesheet" />
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<script type='text/javascript' src='https://wit0302.github.io/media/scripts/script.js'></script>
+<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
+  <script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script>wow=new WOW({boxClass:'wow',animateClass:'animated',offset:0,mobile:true,live:true});wow.init();</script>
+
+<script type="text/javascript">
+window.onload=getCSS();
+</script>
+
+
+ 	
+</head>
+<body class="post-template-default single single-post postid-70 single-format-standard">
+    <div id="wrapper">
+        
+			
+		<header id="header" class="site-header" 
+		
+		style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(http://cdn.jsdelivr.net/gh/salivaser/bed2/12.png)"
+		
+		>
+			<div class="site-branding">
+									<h1 class="site-title"><a href="https://wit0302.github.io" rel="home">Saliva</a></h1>
+										
+					<h2 class="site-description">你以为彼此拥有，实际上只是常客罢了</h2>
+										
+							</div>
+			<nav id="nav-wrapper">
+				<div class="container">
+					<div class="nav-toggle">
+						<div class="bars">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<ul id="" class="dove">
+		 
+     			
+<li>
+	 
+	<a  href="https://wit0302.github.io"> 首页</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="/archives"> 归档</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="https://wit0302.github.io/post/you-lian"> 友链</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="/post/about"> 关于</a></li>
+	
+    
+
+</ul>
+</li>		
+		
+</ul>				</div>
+			</nav>
+						<div class="jingge">
+
+
+    
+
+    
+			
+<a  href="https://github.com/wit0302" target="_blank" ><i class="iconfont icon-github"></i></a>
+ 
+    
+			
+<a  href="https://www.zhihu.com/people/da-ha-7-90" target="_blank" ><i class="iconfont icon-zhihu"></i></a>
+ 
+    
+
+    
+
+    
+			
+<a  href="https://telegram.org/dl/saliva" target="_blank" ><i class="iconfont icon-telegram"></i></a>
+ 
+    
+			
+<a  href="https://www.douban.com/people/208851555/" target="_blank" ><i class="iconfont icon-douban"></i></a>
+ 
+    
+
+    
+			
+<a  href="mailto:1763228950@qq.com" target="_blank" ><i class="iconfont icon-qq"></i></a>
+ 
+    
+
+    
+
+    
+        </header>
+
+		<div id="content" class="container">
+			<div class="row">
+	<div class="col-md-8 site-main">
+				
+<article id="post-70" class="post-70 post type-post status-publish format-standard hentry category-5 tag-10 tag-9 tag-11">
+
+	
+	                      
+		<div class="entry-content">
+			<h1 class="wow swing entry-title">HTML表单元素</h1>
+<div class="entry-meta">
+<div class="wow bounce">
+	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2020-12-19 14:29:36" itemprop="datePublished" pubdate="">2020-12-19</time></i>
+	          </div>
+			
+</span>
+													 
+		</div>
+                  
+			<div class="wow slideInLeft entry-summary song">
+				<h1 id="一html文本框与文本域">一.HTML文本框与文本域</h1>
+<pre><code>1.&lt;input type=&quot;text&quot;&gt;即表示文本框，不需要写成&lt;input&gt;&lt;/input&gt;或,&lt;input/&gt;这样，包含“size”“value”“placeholder(背景文字文本框)”等属性，但框里的内容只能输一行，想要多行输入，需要使用文本域。
+初始示例：&lt;input type=&quot;text&quot;&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+属性size示例：&lt;input type=&quot;text&quot; size=&quot;10&quot;&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+属性value示例：&lt;input type=&quot;text&quot; size=&quot;10&quot; value=&quot;有初始值的文本框&quot;&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+属性placeholder示例：&lt;input type=&quot;text&quot; size=&quot;12&quot; placeholder=&quot;有背景文字的文本框&quot;&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+</code></pre>
+<p>未加属性效果：<input type="text"><br>
+<br/><br>
+<br/><br>
+属性size效果：<input type="text" size="10"><br>
+<br/><br>
+<br/><br>
+属性value效果：<input type="text" size="10" value="有初始值的文本框"><br>
+<br/><br>
+<br/><br>
+属性placeholder效果：<input type="text" size="12" placeholder="有背景文字的文本框"><br>
+<br/><br>
+<br/></p>
+<pre><code>2.&lt;textarea&gt;即文本域，文本域可以多行输入，而且可以有滚动条,包含cols和rows属性
+未加属性示例：
+&lt;br/&gt;
+&lt;textarea&gt;123 456 
+  789 
+&lt;/textarea&gt;
+&lt;br/&gt;
+使用属性cols(宽度)和rows（行数）示例：
+&lt;br/&gt;
+&lt;textarea cols=&quot;20&quot; rows=&quot;6&quot;&gt;123456789
+  1231
+  1233
+  1234
+  1233
+  1236&lt;/textarea&gt;
+  
+</code></pre>
+<p>未加属性效果：<br>
+<br/><br>
+<br/><br>
+<textarea>123 456<br>
+789<br>
+</textarea><br>
+<br/><br>
+<br/><br>
+使用属性cols (宽度) 和rows（行数）效果：<br>
+<br/><br>
+<br/><br>
+<textarea cols="20" rows="6">123456789<br>
+1231<br>
+1233<br>
+1234<br>
+1233<br>
+1236</textarea><br>
+<br/></p>
+<h1 id="二html密码框">二.HTML密码框</h1>
+<pre><code>&lt;input type=&quot;password&quot;&gt;即表示密码框，输入的数字会自动显示为星号
+运行示例：&lt;input type=&quot;password&quot; value=&quot;123456789&quot;&gt;
+</code></pre>
+  <br/>
+  运行效果：<input type="password" value="123456789">
+  <br/>
+<h1 id="三html表单">三.HTML表单</h1>
+<pre><code>&lt;form&gt;用于向服务器提交数据，比如账号密码，提交数据常用method=&quot;get&quot;和method=&quot;post&quot;两种提交方式,前一种是form默认的,提交数据会在浏览器上显示出来，不可以上传文件，后一种必须通过method=&quot;post&quot;语句指定，提交数据不会在浏览器上显示出来，可以提交文件等二进制数据。
+ &lt;!---action=&quot;https//saliva.top/about.jsp&quot;表示把账号和密码提交到about.jsp这个页面---&gt;
+&lt;form action=&quot;https//saliva.top/about.jsp&quot;&gt;
+&lt;!---name=&quot;name&quot;、name=&quot;password&quot;意思是给变量赋值---&gt;
+账号：&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;&lt;br/&gt;
+密码：&lt;input type=&quot;password&quot; name=&quot;password&quot;&gt;&lt;br/&gt;
+&lt;!---input type=&quot;submit&quot; 用来创建提交对象&gt;
+&lt;input type=&quot;submit&quot; value=&quot;登录&quot;&gt;
+&lt;/form&gt;
+</code></pre>
+  <br/>
+  表单效果：
+  <!---action="https//saliva.top/about.jsp"表示把账号和密码提交到about.jsp这个页面--->
+  <form method="post" action="https//saliva.top/about.jsp">
+  账号：<input type="text" name="name"><br/>
+  密码：<input type="password" name="password"><br/>
+  <input type="submit" value="登录">
+  </form>
+  <br/>
+<h1 id="四html单选框">四.HTML单选框</h1>
+<pre><code>&lt;input type=&quot;radio&quot;&gt;表示单选框,包含name、checked等属性
+多选框示例：
+&lt;br/&gt;
+A&lt;input type=&quot;radio&quot;&gt;&lt;br/&gt;
+B&lt;input type=&quot;radio&quot;&gt;&lt;br/&gt;
+C&lt;input type=&quot;radio&quot;&gt;&lt;br/&gt;
+D&lt;input type=&quot;radio&quot;&gt;&lt;br/&gt;
+&lt;br/&gt;
+单选框示例：
+&lt;!---把多个选项框放在同一个分组里，给定相同的name属性即可,此处value属性非必须，后期页面处理时用到request name 属性时，得到的值就是value---&gt;
+&lt;br/&gt;
+A&lt;input type=&quot;radio&quot; name=&quot;四选一&quot;&gt;&lt;br/&gt;
+B&lt;input type=&quot;radio&quot; name=&quot;四选一&quot;&gt;&lt;br/&gt;
+C&lt;input type=&quot;radio&quot; name=&quot;四选一&quot;&gt;&lt;br/&gt;
+D&lt;input type=&quot;radio&quot; name=&quot;四选一&quot;&gt;&lt;br/&gt;
+默认选中示例：
+&lt;br/&gt;
+&lt;input type=&quot;radio&quot; checked=&quot;checked&quot;&gt;
+</code></pre>
+<p>多选效果：<br>
+<br/><br>
+A<input type="radio"><br/><br>
+B<input type="radio"><br/><br>
+C<input type="radio"><br/><br>
+D<input type="radio"><br/><br>
+<br/><br>
+单选效果：<br>
+<br/><br>
+A<input type="radio" name="四选一" value="A"><br/><br>
+B<input type="radio" name="四选一" value="B"><br/><br>
+C<input type="radio" name="四选一" value="C"><br/><br>
+D<input type="radio" name="四选一" value="D"><br/><br>
+<br/><br>
+默认选中效果：<br>
+<br/><br>
+<input type="radio" checked="checked"><br>
+<br/></p>
+<h1 id="五html复选框">五.HTML复选框</h1>
+  <br/>
+<pre><code>&lt;input type=&quot;checkbox&quot;&gt;即表示复选框
+&lt;!---value同单选框一样的道理---&gt;
+吃饭&lt;input type=&quot;checkbox&quot; value=&quot;吃饭&quot;&gt;&lt;br/&gt;
+学习&lt;input type=&quot;checkbox&quot; value=&quot;学习&quot; &gt;&lt;br/&gt;
+玩手机&lt;input type=&quot;checkbox&quot; value=&quot;玩手机&quot;&gt;&lt;br/&gt;
+睡觉&lt;input type=&quot;checkbox&quot; value=&quot;睡觉 value&quot;&gt;&lt;br/&gt;
+</code></pre>
+<p>复选框效果：<br/><br>
+吃饭<input type="checkbox" value="吃饭"><br/><br>
+学习<input type="checkbox" value="学习" ><br/><br>
+玩手机<input type="checkbox" value="玩手机"><br/><br>
+睡觉<input type="checkbox" value="睡觉 value"><br/><br>
+<br/></p>
+<h1 id="六html下拉列表">六.HTML下拉列表</h1>
+<pre><code>&lt;select&gt;即下拉列表，需要配合&lt;option&gt;使用,有siae、selected等属性
+ 未加属性示例：
+&lt;select&gt;
+  &lt;option&gt;张三&lt;/option&gt;
+  &lt;option&gt;李四&lt;/option&gt;
+  &lt;option&gt;王麻子&lt;/option&gt;
+&lt;/select &gt;
+&lt;br/&gt;
+&lt;br/&gt;
+size高度属性示例:
+&lt;select size=&quot;2&quot;&gt;
+  &lt;option&gt;张三&lt;/option&gt;
+  &lt;option&gt;李四&lt;/option&gt;
+  &lt;option&gt;王麻子&lt;/option&gt;
+&lt;/select&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+multiple多选属性示例：
+&lt;!---使用ctrl和shift进行多选---&gt;
+&lt;select   size=&quot;4&quot; multiple=&quot;multiple&quot;&gt;
+  &lt;option&gt;张三&lt;/option&gt;
+  &lt;option&gt;李四&lt;/option&gt;
+  &lt;option&gt;王麻子&lt;/option&gt;
+&lt;/select &gt;
+&lt;br/&gt;
+&lt;br/&gt;
+
+默认选中属性示例：
+&lt;select multiple=&quot;multiple&quot;&gt;
+  &lt;option selected=&quot;selected&quot;&gt;张三&lt;/option&gt;
+  &lt;option selected=&quot;selected&quot;&gt;李四&lt;/option&gt;
+  &lt;option&gt;王麻子&lt;/option&gt;
+&lt;/select &gt;
+</code></pre>
+<p>未加属性效果：<br>
+<select><br>
+<option>张三</option><br>
+<option>李四</option><br>
+<option>王麻子</option><br>
+</select ><br>
+<br/><br>
+<br/><br>
+size高度属性效果:<br>
+<select size="2"><br>
+<option>张三</option><br>
+<option>李四</option><br>
+<option>王麻子</option><br>
+</select><br>
+<br/><br>
+<br/><br>
+multiple多选属性效果：<br>
+<select   size="4" multiple="multiple"><br>
+<option>张三</option><br>
+<option>李四</option><br>
+<option>王麻子</option><br>
+</select ><br>
+<br/><br>
+<br/></p>
+<p>默认选中属性效果：<br>
+<select multiple="multiple"><br>
+<option selected="selected">张三</option><br>
+<option selected="selected">李四</option><br>
+<option>王麻子</option><br>
+</select ><br>
+<br/><br>
+<br/></p>
+<h1 id="七html按钮">七.HTML按钮</h1>
+<pre><code>按钮分为普通按钮，提交按钮，重置按钮三种
+按钮标签有两种&lt;button&gt;&lt;/button&gt;和type=&quot;&quot;,不同之处是前一种button里面可以是文字、图片、也可以提交数据。
+&lt;button&gt;普通按钮&lt;/button&gt;
+&lt;button type=&quot;submit&quot;&gt;提交&lt;/button&gt;
+&lt;button&gt; &lt;img  src=&quot;http://cdn.jsdelivr.net/gh/salivaser/bed/登录 .png&quot;&gt;&lt;/button&gt;定义图片
+&lt;button type=&quot;img&quot; src=&quot;http://cdn.jsdelivr.net/gh/salivaser/bed/登录 .png&quot;&gt;&lt;/button&gt;
+&lt;input type=&quot;button&quot;&gt;即普通按钮，普通按钮不能提交数据，即不能用于登录等按钮
+&lt;input type=&quot;submit&quot;&gt;即为提交按钮，用于提交form,把数据提交至服务器
+&lt;input type=&quot;reset&quot;&gt;即为重置按钮，可以把输入框的改动复原
+&lt;form method=&quot;post&quot; action=&quot;https//saliva.top/about.jsp&quot;&gt;
+账号：&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;&lt;br/&gt;
+密码：&lt;input type=&quot;password&quot; name=&quot;password&quot;&gt;&lt;br/&gt;
+&lt;input type=&quot;submit&quot; value=&quot;登录&quot;&gt;
+&lt;input type=&quot;reset&quot; value=&quot;重置&quot;&gt;
+&lt;input type=&quot;button&quot; value=&quot;普通按钮&quot;&gt;
+&lt;/form&gt;
+</code></pre>
+<p>button标签示范效果：<br>
+<br/><br>
+<br/><br>
+<button>普通按钮</button><br>
+<button type="submit">提交</button><br>
+<button> <img  src="http://cdn.jsdelivr.net/gh/salivaser/bed/登录 .png"></button><br>
+<br/><br>
+type=&quot;&quot;示范效果:<br>
+<br/><br>
+<br/></p>
+  <form method="post" action="https//saliva.top/about.jsp">
+  账号：<input type="text" name="name"><br/>
+  密码：<input type="password" name="password"><br/>
+  <input type="submit" value="登录">
+  <input type="reset" value="重置">
+  <input type="button" value="普通按钮">
+  </form>
+  <br/>
+<h1 id="八图像提交">八.图像提交</h1>
+  <br/>
+<pre><code>&lt;input type=&quot;image&quot; src=&quot;&quot;&gt;即使用图像作为按钮进行form的提交
+&lt;form method=&quot;post&quot; action=&quot;https//saliva.top/about.jsp&quot;&gt;
+账号：&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;&lt;br/&gt;
+密码：&lt;input type=&quot;password&quot; name=&quot;password&quot;&gt;&lt;br/&gt;
+&lt;input type=&quot;image&quot; src=&quot;http://cdn.jsdelivr.net/gh/salivaser/bed/登录 .png&quot;&gt;
+&lt;/form&gt;
+</code></pre>
+  <br/>
+  <form method="post" action="https//saliva.top/about.jsp">
+  账号：<input type="text" name="name"><br/>
+  密码：<input type="password" name="password"><br/>
+  <input type="image" src="http://cdn.jsdelivr.net/gh/salivaser/bed/登录 .png">
+ </form>
+<h1 id="九练习">九.练习</h1>
+<pre><code>&lt;html lang=&quot;en&quot;&gt; &lt;!---语言为英文---&gt;
+&lt;head&gt;
+   &lt;meta charset=&quot;UTF-8&quot;&gt;
+   &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+   &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+   &lt;form action=&quot;&quot;&gt;
+       &lt;table align=&quot;center&quot;&gt;
+           &lt;tr&gt;
+               &lt;td align=&quot;right&quot;&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;用户名：&lt;/td&gt;
+               &lt;td&gt;&lt;input type=&quot;text&quot;&gt;&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+               &lt;td align=&quot;right&quot;&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;密码：&lt;/td&gt;
+               &lt;td&gt;&lt;input type=&quot;password&quot;&gt;&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+               &lt;td&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;确认密码：&lt;/td&gt;
+               &lt;td&gt;&lt;input type=&quot;password&quot;&gt;&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+               &lt;td align=&quot;right&quot;&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;Email：&lt;/td&gt;
+               &lt;td&gt;&lt;input type=&quot;text&quot;&gt;&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+               &lt;td align=&quot;right&quot;&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;真实姓名：&lt;/td&gt;
+               &lt;td&gt;&lt;input type=&quot;text&quot;&gt;&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+               &lt;td align=&quot;right&quot;&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;性别：&lt;/td&gt;
+               &lt;td&gt; 男：&lt;input type=&quot;radio&quot; name=&quot;性别&quot; id=&quot;男&quot;&gt; 女：&lt;input type=&quot;radio&quot; name=&quot;性别&quot; id=&quot;女&quot;&gt;&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+               &lt;td align=&quot;right&quot;&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;生日：&lt;/td&gt;
+               &lt;td&gt;
+                   &lt;select&gt;
+                       &lt;option selected disabled&gt;请选择&lt;/option&gt;
+                       &lt;option&gt;1997&lt;/option&gt;
+                       &lt;option&gt;1998&lt;/option&gt;
+                       &lt;option&gt;1999&lt;/option&gt;
+                       &lt;option&gt;2000&lt;/option&gt;
+                   &lt;/select&gt;
+                   &lt;select&gt;
+                       &lt;option selected disabled&gt;请选择&lt;/option&gt;
+                       &lt;option&gt;1&lt;/option&gt;
+                       &lt;option&gt;2&lt;/option&gt;
+                       &lt;option&gt;3&lt;/option&gt;
+                       &lt;option&gt;4&lt;/option&gt;
+                   &lt;/select&gt;
+                   &lt;select&gt;
+                       &lt;option selected disabled&gt;请选择&lt;/option&gt;
+                       &lt;option&gt;1&lt;/option&gt;
+                       &lt;option&gt;2&lt;/option&gt;
+                       &lt;option&gt;3&lt;/option&gt;
+                       &lt;option&gt;4&lt;/option&gt;
+                   &lt;/select&gt;
+               &lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+               &lt;td align=&quot;right&quot;&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;手机：&lt;/td&gt;
+               &lt;td&gt;&lt;input type=&quot;text&quot;&gt;&lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+               &lt;td align=&quot;right&quot;&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;居住地：&lt;/td&gt;
+               &lt;td&gt;
+                   &lt;select&gt;
+                       &lt;option &gt;请选择&lt;/option&gt;
+                       &lt;option&gt;湖北省&lt;/option&gt;
+                       &lt;option&gt;广西省&lt;/option&gt;
+                       &lt;option&gt;四川省&lt;/option&gt;
+                   &lt;/select&gt;
+                 &lt;select&gt;
+                       &lt;option&gt;请选择&lt;/option&gt;
+                       &lt;option&gt;武汉市&lt;/option&gt;
+                       &lt;option&gt;荆州市&lt;/option&gt;
+                       &lt;option&gt;荆门市&lt;/option&gt;
+                   &lt;/select&gt;
+                   &lt;select&gt;
+                   &lt;option&gt;请选择&lt;/option&gt;
+                   &lt;option&gt;坭陂镇&lt;/option&gt;
+                   &lt;option&gt;新圩镇&lt;/option&gt;
+                   &lt;option&gt;三圣乡&lt;/option&gt;
+               &lt;/select&gt;
+               &lt;/td&gt;
+           &lt;/tr&gt;
+           &lt;tr&gt;
+               &lt;td align=&quot;right&quot;&gt;&lt;font color=&quot;F0000&quot;&gt;*&lt;/font&gt;QQ：&lt;/td&gt;
+               &lt;td&gt;&lt;input type=&quot;text&quot;&gt;
+           &lt;br&gt;
+               &lt;font size=&quot;-1&quot; color=&quot;blue&quot;&gt;设置我的QQ在线状态&lt;/font&gt;
+               &lt;/td&gt;
+           &lt;/tr&gt;
+         &lt;tr&gt;
+           &lt;td colspan=&quot;2&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;注册&quot;&gt;
+ &lt;input type=&quot;button&quot; value=&quot;返回登录&quot;&gt;
+ &lt;input type=&quot;reset&quot; value=&quot;重置&quot;
+           &lt;/td&gt;
+       &lt;/tr&gt;
+&lt;/body&gt;
+&lt;/form&gt;
+&lt;/html&gt;
+
+</code></pre>
+ <br/>
+<p>效果如下：<br>
+<br/><br>
+<br/></p>
+ <html lang="en"> <!---语言为英文--->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  method="post" action="https://passport.bilibili.com/login.jsp">
+        <table align="center">
+            <tr>
+                <td align="right"><font color="F0000">*</font>用户名：</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="right"><font color="F0000">*</font>密码：</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><font color="F0000">*</font>确认密码：</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td align="right"><font color="F0000">*</font>Email：</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="right"><font color="F0000">*</font>真实姓名：</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="right"><font color="F0000">*</font>性别：</td>
+                <td> 男：<input type="radio" name="性别" id="男"> 女：<input type="radio" name="性别" id="女"></td>
+            </tr>
+            <tr>
+                <td align="right"><font color="F0000">*</font>生日：</td>
+                <td>
+                    <select>
+                        <option selected disabled>请选择</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                    </select>
+                    <select>
+                        <option selected disabled>请选择</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                    <select>
+                        <option selected disabled>请选择</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><font color="F0000">*</font>手机：</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="right"><font color="F0000">*</font>居住地：</td>
+                <td>
+                    <select>
+                        <option >请选择</option>
+                        <option>湖北省</option>
+                        <option>广西省</option>
+                        <option>四川省</option>
+                    </select>
+                  <select>
+                        <option>请选择</option>
+                        <option>武汉市</option>
+                        <option>荆州市</option>
+                        <option>荆门市</option>
+                    </select>
+                    <select>
+                    <option>请选择</option>
+                    <option>会师镇</option>
+                    <option>老君镇</option>
+                    <option>郭城驿镇</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><font color="F0000">*</font>QQ：</td>
+                <td><input type="text">
+            <br>
+                <font size="-1" color="blue">设置我的QQ在线状态</font>
+                </td>
+            </tr>
+          <tr>
+            <td colspan="2"><input type="submit" value="注册">
+  <input type="button" value="返回登录" src="https://passport.bilibili.com/login">
+  <input type="reset" value="重置"
+            </td>
+        </tr>
+</body>
+</form>
+</html>
+
+							</div>
+	<div class="wow bounceInDown vt-post-tags">
+ 
+				<a href="https://wit0302.github.io/tag/H7N_w5MGJ/" rel="tag">HTML</a>	
+				 
+					</div>						
+<nav class="navigation3 post-navigation3" role="navigation">
+		
+		<div class="nav-links3">
+      
+		 
+		<div class="wow bounceInRight nav-next3"><a href="https://wit0302.github.io/post/html-ce-shi/" rel="next"> HTML入门</a></div>
+		
+		</div>
+	</nav>
+	<div class="wow rollIn author-info" style="visibility: visible; animation-name: rollIn;">
+	<div class="author-avatar pull-left"><img src="https://wit0302.github.io/images/avatar.png" ></div>
+ 
+	<div class="author-description"><div class="author-title"><div class="author-link" rel="author">Saliva</div></div>
+
+
+	<p class="author-bio">生活中本就充满了失望  不是所有的等待都能如愿以偿</p></div></div>
+	
+		</div>
+		
+ 
+		
+</article>
+
+<div id="marlin_lite_about_widget-2" class="wow bounceInUp widget marlin_lite_about_widget" data-wow-delay="0.1s">
+		
+        
+		<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://wit0302.github.io/media/scripts/Valine.min.js'></script>
+
+<div class="comment"></div>
+<script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment',
+            lang: 'zh-cn',
+            
+            admin_email:'1763228950@qq.com',
+            
+            
+            emoticon_url: 'alu',
+             
+      emoticon_list: ["吐.png","喷血.png","狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","中指.png","尴尬.png","瞅你.png","想一想.png","中枪.png","得意.png","肿包.png","扇耳光.png","亲亲.png","惊喜.png","脸红.png","无所谓.png","便便.png","愤怒.png","蜡烛.png","献黄瓜.png","内伤.png","投降.png","观察.png","看不见.png","击掌.png","抠鼻.png","邪恶.png","看热闹.png","口水.png","抽烟.png","锁眉.png","装大款.png","吐舌.png","无奈.png","长草.png","赞一个.png","呲牙.png","无语.png","阴暗.png","不出所料.png","咽气.png","期待.png","高兴.png","吐血倒地.png","哭泣.png","欢呼.png","黑线.png","喜极而泣.png","喷水.png","深思.png","鼓掌.png","暗地观察.png"],
+     
+      app_id: 'xOUBgSnx5RF4MKqMK2jd71gB-gzGzoHsz',
+      	
+      
+      app_key: 'XCDhc4dNi6Sia79kIuUorHub',
+         	
+          
+      placeholder: '欢迎评论♥'
+       
+        });
+    </script> 
+
+
+   
+  
+ 
+
+		</div>
+
+			</div>
+			
+
+
+<div class="tocc col l3 hide-on-med-and-down">
+	
+        <div class="toc-widget">
+			
+            <div class="toc-title"></div>
+			
+            <div id="toc-content">
+			
+			
+			</div>
+        </div>
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.5.0/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '.entry-summary',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('.entry-summary').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+    });
+</script>										 
+
+ 
+       
+
+
+			</div>
+		</div>
+
+		
+		 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<footer id="colophon" class="site-footer">
+
+			<div class="container">
+	
+				<div class="copyright">Powered by <a href="https://github.com/salivaser" target="_blank">大名大哈小名小哈哈</a><br>B站: <a href="https://space.bilibili.com/478142961" target="_blank" title=""><span>Saliva</span></a>.	
+				<br>幸好你给的失望够多 我的离开也算值得
+			</div>
+		
+		</footer>
+
+</div>
+
+<script src="https://cdn.bootcss.com/fitvids/1.2.0/jquery.fitvids.min.js"></script>
+<script type='text/javascript' src='https://wit0302.github.io/media/scripts/marlin-scripts.js'></script>
+ <script src="//tokinx.github.io/lately/lately.min.js"></script>
+  <script>jQuery(document).ready(function(){$.lately({'target':'.lately-a,.lately-b,.lately-c'})});</script>
+  <style type="text/css">a.back_to_top {
+    text-decoration: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background: #f0f0f0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    transition-duration: .5s;
+    transition-propety: background-color;
+    display: none;
+}
+
+a.back_to_top span {
+    color: #888;
+}
+
+a.back_to_top:hover {
+    cursor: pointer;
+    background: #dfdfdf;
+}
+
+a.back_to_top:hover span {
+    color: #555;
+}
+
+@media print, screen and (max-width: 580px) {
+    .back_to_top {
+        display: none !important;
+    }
+}
+
+
+
+</style><a id="back_to_top" href="#" class="back_to_top"><span><i class="iconfont icon-xiangshang"></i></span>
+</a>
+
+
+<script>$(document).ready((function(_this) {
+  return function() {
+    var bt;
+    bt = $('#back_to_top');
+    if ($(document).width() > 480) {
+      $(window).scroll(function() {
+        var st;
+        st = $(window).scrollTop();
+        if (st > 30) {
+          return bt.css('display', 'block');
+        } else {
+          return bt.css('display', 'none');
+        }
+      });
+      return bt.click(function() {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+      });
+    }
+  };
+})(this));
+</script>
+
+		<script data-no-instant>
+    (function ($) {
+        $.extend({
+            adamsOverload: function () {
+                $('.navigation:eq(0)').remove();
+                $("").attr("rel" , "external");
+                $("a[rel='external'],a[rel='external nofollow']").attr("target","_blank");
+                $("a.vi").attr("rel" , "");
+                $.viewImage({
+                    'target'  : 'img',
+                    'exclude' : '.vsmile-icons img,.gallery img',
+                    'delay'   : 300
+                });
+                $.lately({
+                    'target' : '.commentmetadata a,.infos time,.post-list time'
+                });
+                prettyPrint();
+                
+                $('ul.links li a').each(function(){
+                    if($(this).parent().find('.bg').length==0){
+                        $(this).parent().append('<!---<div class="bg" style="background-image:url(https://c3.glgoo.top/s2/favicons?domain='+$(this).attr("href")+')"></div>--->')
+                    }
+                });
+            }
+        });
+    })(jQuery);
+    jQuery.adamsOverload();
+</script>
+
+</body>
+</html>
