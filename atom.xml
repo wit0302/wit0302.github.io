@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wit0302.github.io</id>
-    <title>Saliva</title>
-    <updated>2021-05-30T09:38:26.593Z</updated>
+    <title>Attainment</title>
+    <updated>2021-05-30T09:48:46.760Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wit0302.github.io"/>
     <link rel="self" href="https://wit0302.github.io/atom.xml"/>
     <subtitle>你以为彼此拥有，实际上只是常客罢了</subtitle>
     <logo>https://wit0302.github.io/images/avatar.png</logo>
     <icon>https://wit0302.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Saliva</rights>
+    <rights>All rights reserved 2021, Attainment</rights>
     <entry>
         <title type="html"><![CDATA[HTML表单元素]]></title>
         <id>https://wit0302.github.io/post/html-biaodan2/</id>
